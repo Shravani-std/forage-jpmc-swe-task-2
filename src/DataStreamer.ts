@@ -31,10 +31,9 @@ class DataStreamer {
       } else {
         alert ('Request failed');
       }
-    }
-
-    request.send();
-  }
-}
+    };
+        request.send();
+     }
+    };
 
 export default DataStreamer;
